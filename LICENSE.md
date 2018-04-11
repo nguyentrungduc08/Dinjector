@@ -1,4 +1,4 @@
-Copyright (c) <2018> <copyright TRUNG-DUC NGUYEN>
+Copyright (c) <2018> copyright Trung-Duc Nguyen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
