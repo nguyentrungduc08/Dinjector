@@ -14,4 +14,10 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 # The following folder will be included
 include_directories("${PROJECT_SOURCE_DIR}")
 
+add_compile_options(
+    -std=c++11
+#        -D_DEBUG
+#        -g
+)
+
 add_executable(Dinjector ${PROJECT_SOURCE_DIR}/main.cpp)
