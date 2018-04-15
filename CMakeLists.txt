@@ -14,6 +14,13 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 # The following folder will be included
 include_directories("${PROJECT_SOURCE_DIR}")
 
+message("infor path: \n\
+- PROJECT_SOURCE_DIR: ${PROJECT_SOURCE_DIR} \n\
+- CMAKE_BINARY_DIR: ${CMAKE_BINARY_DIR} \n\
+- EXECUTABLE_OUTPUT_PATH: ${EXECUTABLE_OUTPUT_PATH} \n\
+- LIBRARY_OUTPUT_PATH: ${LIBRARY_OUTPUT_PATH} \n\
+")
+
 add_compile_options(
     -std=c++11
 #        -D_DEBUG
