@@ -20,4 +20,4 @@ add_compile_options(
 #        -g
 )
 
-add_executable(Dinjector ${PROJECT_SOURCE_DIR}/main.cpp)
+add_executable(Dinjector ${PROJECT_SOURCE_DIR}/src/main.cpp)

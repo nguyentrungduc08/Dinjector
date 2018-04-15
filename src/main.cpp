@@ -12,10 +12,9 @@
 #include <bits/stdc++.h>
 #include <iostream>
 
-
 using namespace std;
 
-bool parse_Input_Parameter();
+bool parse_Input_Parameter(int, char **);
 
 
 int main(int argc, char ** argv){
@@ -26,7 +25,7 @@ int main(int argc, char ** argv){
 
 
 bool 
-parse_Input_Parameter()
+parse_Input_Parameter(int argc, char ** argv)
 {
     if (argc < 9)
         {
@@ -39,5 +38,5 @@ parse_Input_Parameter()
             return false;
         }
     
-{
+}
 
