@@ -10,8 +10,10 @@
  * ./Dinjector -m TCP -t 1.2.3.4 -p 1000 -f Y
 */
 
-#include <bits/stdc++.h>
-#include <iostream>
+#include "Dinjector.h"
+#include "Task.h"
+#include "TCP.h"
+#include "UDP.h"
 
 using namespace std;
 
@@ -32,7 +34,7 @@ int main(int argc, char ** argv){
                 << endl;  
     } 
 
-    
+
     return 0;
 }
 
