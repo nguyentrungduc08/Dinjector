@@ -2,9 +2,9 @@
 #include "TCP.h"
 
 TCP::TCP(){
-	std::cout << "Create TCP object" << endl;
+	std::cout << "Create TCP object" << std::endl;
 }
 
 TCP::~TCP(){
-	std::cout << "Create UDP object" << endl;
+	std::cout << "Create TCP object" << std::endl;
 }

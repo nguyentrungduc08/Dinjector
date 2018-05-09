@@ -31,4 +31,4 @@ add_compile_options(
 #        -g
 )
 
-add_executable(Dinjector ${SOURCES_DIR}/main.cpp)
+add_executable(Dinjector ${SOURCES_DIR}/main.cpp ${SOURCES_DIR}/TCP.cpp ${SOURCES_DIR}/UDP.cpp ${SOURCES_DIR}/Task.cpp)
