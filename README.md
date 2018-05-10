@@ -6,6 +6,12 @@
 ## Prerequisites
 
 ## Installing
+```
+$ mkdir build
+$ cd build 
+$ cmake ..
+$ ./Dinjector 
+```
 
 ## Running the tests
 

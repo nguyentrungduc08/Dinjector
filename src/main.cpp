@@ -34,10 +34,6 @@ int main(int argc, char ** argv){
                 << endl;  
     } 
 
-    TCP *tcp;
-    tcp = new TCP();
-
-    delete tcp;
 
 
     return 0;

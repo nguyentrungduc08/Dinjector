@@ -8,5 +8,5 @@ public:
 
 private:
 	std::string _sourcesIP;
-	std::string	_destIP;
+	std::string	_destIP;	
 };
