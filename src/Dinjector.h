@@ -25,5 +25,14 @@
 #define X           first
 #define Y           second
 
+struct pseudo_Header
+{
+    u_int32_t           _sourceAddress;
+    u_int32_t           _destAddress;
+    u_int8_t            _placeholder;
+    u_int8_t            _protocol;
+    u_int16_t           _length;
+};
+
 
 #endif /* DINJECTION_H */
