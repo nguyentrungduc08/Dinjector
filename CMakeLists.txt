@@ -5,6 +5,10 @@ cmake_minimum_required(VERSION 2.8)
 # Project's name
 project(Dinjector)
 
+# The version number.
+set (Dinjector 1)
+set (Dinjector 0)
+
 # Set the output folder where your program will be created
 
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/build)

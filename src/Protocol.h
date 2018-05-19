@@ -6,4 +6,8 @@ public:
 	Protocol();
 	~Protocol();
 	
+private:
+
+
+	
 };
